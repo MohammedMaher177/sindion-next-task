@@ -8,7 +8,7 @@ import img3 from "public/assets/2.png";
 export default function Testimonials() {
   return (
     <div className={styles.main}>
-      <div className="container">
+      <div className="container-fluid">
         <h3 className={styles.title}>Clients' Testimonials</h3>
         <h2 className={styles.sub_title}>Unforgettable Travel Experiences</h2>
         <div className={`row ${styles.grid} pb-5 gx-3 gy-5 mb-2`}>
